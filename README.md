@@ -20,3 +20,13 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 ```
 
 Note that the device runs OpenWRT, albeit modified.
+
+# Things to try
+
+- Download the firmware from the device via serial headers
+- Diff the various firmware versions from the mi website
+- Upgrade the firmware on the device
+- See if the ssh password on the device can be reset
+- Figure out how to turn on ssh on the device
+- Get the `/data/` directory (it has the aes encryption key for backups)
+- See if the firmware upgrade process can be hacked to upload openwrt
